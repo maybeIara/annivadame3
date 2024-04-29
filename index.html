@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>🎉 TROUVE TON CADEAU CRETIN ! 🎉</h1>
+        <div id="questions">
+            <div class="question">
+                <p>Quel cadeau as-tu réellement reçu pour ton anniversaire ? (avec majuscule), (nom complet, précis)</p>
+                <input type="text" id="answer" placeholder="Réponse...">
+                <button onclick="checkAnswer()">Vérifier</button>
+                <span id="response" class="response"></span>
+            </div>
+        </div>
+        <div id="gifts">
+            <img src="troll1.gif" class="gift">
+            <img src="troll2.gif" class="gift">
+            <img src="gift1.gif" class="gift">
+            <img src="gift2.gif" class="gift">
+        </div>
+        <div id="car-container">
+            <img src="car.jpeg" id="car-image" class="response-image">
+        </div>
+        <img src="iphone.jpg" id="iphone-image" class="response-image">
+		<img src="laugh.jpeg" id="laugh-image" class="response-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
